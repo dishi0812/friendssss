@@ -1,6 +1,6 @@
 //
 //  friendsApp.swift
-//  friends
+//  you have no friends
 //
 //  Created by T Krobot on 9/7/22.
 //
