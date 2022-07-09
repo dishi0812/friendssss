@@ -9,12 +9,12 @@ import SwiftUI
 
 struct ContentView: View {
     @State var friends = [
-        Friends(name: "Felix", details: "a person that plays games"),
-        Friends(name: "Jing Xian", details: "Jing Xian is Jing Xian (math moment)"),
-        Friends(name: "Lindsey", details: "1cm taller than vanisha!"),
-        Friends(name: "En Jie", details: "am late"),
-        Friends(name: "Regina", details: "needs coffee"),
-        Friends(name: "Dishita", details: "can swim")
+        Friend(name: "Felix", details: "a person that plays games"),
+        Friend(name: "Jing Xian", details: "Jing Xian is Jing Xian (math moment)"),
+        Friend(name: "Lindsey", details: "1cm taller than vanisha!"),
+        Friend(name: "En Jie", details: "am late"),
+        Friend(name: "Regina", details: "needs coffee"),
+        Friend(name: "Dishita", details: "can swim")
     ]
          
     var body: some View {
