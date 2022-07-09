@@ -7,11 +7,11 @@
 
 import Foundation
 
-struct Friends: Identifiable{
+struct Friend: Identifiable{
     
     var id = UUID()
     var name: String
-  
+    var details: String
     
 }
 
