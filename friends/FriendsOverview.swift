@@ -16,7 +16,8 @@ struct FriendsOverview: View {
         Friend(name: "Lindsey", details: "1cm taller than vanisha!"),
         Friend(name: "En Jie", details: "am late"),
         Friend(name: "Regina", details: "needs coffee"),
-        Friend(name: "Dishita", details: "can swim")
+        Friend(name: "Dishita", details: "can swim"),
+        Friend(name: "Jolie", details: "Hobby is playing badminton")
     ]
          
     var body: some View {
