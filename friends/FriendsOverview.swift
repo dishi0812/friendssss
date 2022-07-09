@@ -19,6 +19,7 @@ struct FriendsOverview: View {
         Friend(name: "Dishita", details: "can swim"),
         Friend(name: "Jolie", details: "Hobby is playing badminton")
     ]
+    @State var createFriend = false
          
     var body: some View {
         NavigationView {
@@ -53,7 +54,7 @@ struct FriendsOverview: View {
                     }
                     ToolbarItem(placement: .navigationBarTrailing) {
                         Button {
-//                            CreateFriendView()
+                            createFriend = true
                         } label: {
                             Image(systemName: "plus")
                         }
@@ -62,8 +63,12 @@ struct FriendsOverview: View {
                 }
             }
         }
+        .sheet(isPresented: $createFriend) {
+            CreateFriendView(friends: $friends)
+        }
     }
 }
+
 
 struct FriendsOverview_Previews: PreviewProvider {
     static var previews: some View {
