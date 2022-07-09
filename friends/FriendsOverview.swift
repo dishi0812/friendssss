@@ -64,7 +64,7 @@ struct FriendsOverview: View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct FriendsOverview_Previews: PreviewProvider {
     static var previews: some View {
         FriendsOverview()
     }
