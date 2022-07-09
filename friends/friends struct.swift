@@ -8,12 +8,12 @@
 import Foundation
 import SwiftUI
 
-struct Friends: Identifiable{
+struct Friend: Identifiable{
     
     var id = UUID()
     var name: String
     var details: String
-    var photo: Image
+    var photo: Image?
     
 }
 
