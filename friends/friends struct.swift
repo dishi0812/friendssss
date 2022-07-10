@@ -13,7 +13,7 @@ struct Friend: Identifiable{
     var id = UUID()
     var name: String
     var details: String
-    var photo: Image?
+    var icon: String
     
 }
 

@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		511F51C72879382100D669C3 /* CreateFriendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 511F51C62879382100D669C3 /* CreateFriendView.swift */; };
 		7EC0BED7287928E000FD3075 /* friends struct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC0BED6287928E000FD3075 /* friends struct.swift */; };
+		A92D2CA428793AE4002227CD /* DetailedFriendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92D2CA328793AE4002227CD /* DetailedFriendView.swift */; };
 		D9AD807C2879234F0078B4F5 /* friendsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AD807B2879234F0078B4F5 /* friendsApp.swift */; };
 		D9AD807E2879234F0078B4F5 /* FriendsOverview.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AD807D2879234F0078B4F5 /* FriendsOverview.swift */; };
 		D9AD8080287923540078B4F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9AD807F287923540078B4F5 /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* Begin PBXFileReference section */
 		511F51C62879382100D669C3 /* CreateFriendView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateFriendView.swift; sourceTree = "<group>"; };
 		7EC0BED6287928E000FD3075 /* friends struct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "friends struct.swift"; sourceTree = "<group>"; };
+		A92D2CA328793AE4002227CD /* DetailedFriendView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedFriendView.swift; sourceTree = "<group>"; };
 		D9AD80782879234F0078B4F5 /* friends.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = friends.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9AD807B2879234F0078B4F5 /* friendsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = friendsApp.swift; sourceTree = "<group>"; };
 		D9AD807D2879234F0078B4F5 /* FriendsOverview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsOverview.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 				D9AD807B2879234F0078B4F5 /* friendsApp.swift */,
 				7EC0BED6287928E000FD3075 /* friends struct.swift */,
 				D9AD807D2879234F0078B4F5 /* FriendsOverview.swift */,
+				A92D2CA328793AE4002227CD /* DetailedFriendView.swift */,
 				511F51C62879382100D669C3 /* CreateFriendView.swift */,
 				D9AD807F287923540078B4F5 /* Assets.xcassets */,
 				D9AD8081287923540078B4F5 /* Preview Content */,
@@ -146,6 +149,7 @@
 				511F51C72879382100D669C3 /* CreateFriendView.swift in Sources */,
 				D9AD807E2879234F0078B4F5 /* FriendsOverview.swift in Sources */,
 				D9AD807C2879234F0078B4F5 /* friendsApp.swift in Sources */,
+				A92D2CA428793AE4002227CD /* DetailedFriendView.swift in Sources */,
 				7EC0BED7287928E000FD3075 /* friends struct.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

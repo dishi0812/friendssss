@@ -11,13 +11,13 @@ import SwiftUI
 
 struct FriendsOverview: View {
     @State var friends = [
-        Friend(name: "Felix", details: "a person that plays games"),
-        Friend(name: "Jing Xian", details: "Jing Xian is Jing Xian (math moment)"),
-        Friend(name: "Lindsey", details: "1cm taller than vanisha!"),
-        Friend(name: "En Jie", details: "am late"),
-        Friend(name: "Regina", details: "needs coffee"),
-        Friend(name: "Dishita", details: "can swim"),
-        Friend(name: "Jolie", details: "Hobby is playing badminton")
+        Friend(name: "Felix", details: "a person that plays games", icon: "trash"),
+        Friend(name: "Jing Xian", details: "Jing Xian is Jing Xian (math moment)", icon: "trash"),
+        Friend(name: "Lindsey", details: "1cm taller than vanisha!", icon: "trash"),
+        Friend(name: "En Jie", details: "am late", icon: "trash"),
+        Friend(name: "Regina", details: "needs coffee", icon: "trash"),
+        Friend(name: "Dishita", details: "can swim", icon: "trash"),
+        Friend(name: "Jolie", details: "Hobby is playing badminton", icon: "trash")
     ]
     @State var createFriend = false
          
@@ -25,12 +25,12 @@ struct FriendsOverview: View {
         NavigationView {
             VStack {
                 List() {
-                    ForEach(friends) { friend in
+                    ForEach($friends) { $friend in
                         NavigationLink {
-//                            FriendDetailView()
+                            DetailedFriendView(friendElement: $friend)
                         } label: {
                             HStack {
-                                Image(systemName: "trash")
+                                Image(systemName: friend.icon)
                                 VStack(alignment: .leading) {
                                     Text(friend.name)
                                     Text(friend.details)
