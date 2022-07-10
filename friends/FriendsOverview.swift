@@ -14,7 +14,7 @@ struct FriendsOverview: View {
         Friend(name: "Felix", details: "a person that plays games", icon: "trash"),
         Friend(name: "Jing Xian", details: "Jing Xian is Jing Xian (math moment)", icon: "trash"),
         Friend(name: "Lindsey", details: "1cm taller than vanisha!", icon: "trash"),
-        Friend(name: "En Jie", details: "am late", icon: "trash"),
+        Friend(name: "En Jie", details: "am late", icon: "slowmo"),
         Friend(name: "Regina", details: "needs coffee", icon: "trash"),
         Friend(name: "Dishita", details: "can swim", icon: "trash"),
         Friend(name: "Jolie", details: "Hobby is playing badminton", icon: "trash")
